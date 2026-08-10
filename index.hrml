@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Madrasati Platform: Complete Guide for Saudi Students</title>
+<meta name="description" content="Complete Madrasati Platform guide for Saudi students covering login, assignments, digital resources, account access, common problems, parent support, and FAQs.">
+<meta name="keywords" content="The Madrasati Platform, المنصة منصة مدرستي, Madrasati login, Saudi students, homework, digital learning, Noor, Tawakkalna">
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#075b52">
+<meta property="og:title" content="The Madrasati Platform: Complete Guide for Saudi Students">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://madrasatiksa.com">
+<style>
+:root{
+  --emerald950:#063b37;--emerald900:#075b52;--emerald800:#0a7467;--emerald700:#0b8f7c;
+  --teal:#13b9a3;--gold:#d7ab51;--gold2:#efcf82;--blue:#315ed7;
+  --ink:#15243a;--text:#334b55;--muted:#73848b;--white:#fff;--page:#f4f8f7;--line:#dbe8e4;
+  --shadow:0 30px 78px rgba(6,59,55,.16);--sm:0 14px 34px rgba(6,59,55,.08);--max:1280px
+}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth;scroll-padding-top:92px}
+body{
+  min-width:320px;overflow-x:hidden;font-family:Inter,system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+  color:var(--text);line-height:1.8;background:
+  radial-gradient(circle at 6% 8%,rgba(19,185,163,.11),transparent 26rem),
+  radial-gradient(circle at 96% 18%,rgba(215,171,81,.13),transparent 25rem),var(--page)
+}
+a{text-decoration:none;color:inherit}.container{width:min(var(--max),calc(100% - 40px));margin:auto}
+.site-header{position:sticky;top:0;z-index:100;background:rgba(6,59,55,.96);backdrop-filter:blur(16px);border-bottom:1px solid rgba(255,255,255,.08)}
+.header-row{height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px;white-space:nowrap}
+.brand{display:flex;align-items:center;gap:12px;color:#fff;font-weight:880;letter-spacing:-.02em}
+.brand-mark{width:44px;height:44px;display:grid;place-items:center;border-radius:14px;color:var(--emerald950);font-weight:900;background:linear-gradient(145deg,var(--gold2),var(--gold));box-shadow:0 10px 25px rgba(0,0,0,.2)}
+.brand small{font-size:.74rem;color:#ccefe7;margin-left:7px;font-weight:650}
+.nav{display:flex;align-items:center;gap:20px;font-size:.9rem;font-weight:700}.nav a{color:#e8f5f2}.nav a:hover{color:#f2d48d}
+.nav .cta{padding:10px 16px;border-radius:999px;background:linear-gradient(135deg,#f9dc98,var(--gold));color:var(--emerald950)}
+.hero{position:relative;overflow:hidden;color:#fff;padding:96px 0 114px;background:linear-gradient(120deg,var(--emerald950),var(--emerald800))}
+.hero:before{content:"";position:absolute;inset:0;opacity:.16;background-image:linear-gradient(rgba(255,255,255,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.08) 1px,transparent 1px);background-size:56px 56px}
+.hero:after{content:"";position:absolute;width:700px;height:700px;border-radius:50%;right:-245px;top:-300px;background:radial-gradient(circle,rgba(215,171,81,.25),transparent 68%)}
+.hero-grid{position:relative;z-index:2;display:grid;grid-template-columns:1.22fr .78fr;gap:56px;align-items:center}
+.eyebrow{display:inline-flex;align-items:center;gap:9px;padding:8px 13px;border-radius:999px;border:1px solid rgba(255,255,255,.15);background:rgba(255,255,255,.08);font-size:.81rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.eyebrow:before{content:"";width:8px;height:8px;border-radius:50%;background:var(--gold2)}
+h1{font-size:clamp(2.45rem,5.1vw,4.9rem);line-height:1.04;letter-spacing:-.052em;margin-top:18px}
+.hero-lead{max-width:790px;margin-top:23px;color:#d8ebe6;font-size:1.1rem}
+.tags{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}.tags span{padding:9px 13px;border:1px solid rgba(255,255,255,.13);border-radius:11px;background:rgba(255,255,255,.07);font-size:.86rem;font-weight:700}
+.hero-card{background:#fff;color:var(--text);border-radius:30px;padding:29px;box-shadow:0 36px 82px rgba(0,0,0,.28)}
+.dashboard-top{display:flex;align-items:center;gap:12px;margin-bottom:15px}.avatar{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;background:linear-gradient(145deg,var(--emerald700),var(--emerald900));color:#fff;font-weight:900}
+.lines{flex:1}.lines i{display:block;border-radius:999px;background:#dfeae6}.lines i:first-child{height:9px;width:68%;margin-bottom:7px}.lines i:last-child{height:6px;width:42%}
+.tile-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin:16px 0 22px}.tile-grid span{height:50px;border:1px solid #d9e9e4;border-radius:12px;background:linear-gradient(145deg,#eff9f6,#e4f2ed)}
+.hero-card h2{color:var(--ink);font-size:1.38rem;line-height:1.3}.hero-card p{color:var(--muted);margin-top:9px}
+.shell{position:relative;z-index:5;margin-top:-54px;padding-bottom:78px}.layout{display:grid;grid-template-columns:minmax(0,1fr) 315px;gap:30px;align-items:start}
+article{background:#fff;border:1px solid var(--line);border-radius:30px;padding:clamp(28px,5vw,62px);box-shadow:var(--shadow)}
+article p{margin-top:15px;color:#4d6269;font-size:1.002rem}article>p:first-of-type{font-size:1.08rem}
+article section{margin-top:44px}article h2{color:var(--ink);font-size:clamp(1.5rem,2.8vw,2.05rem);line-height:1.25;letter-spacing:-.028em;margin-bottom:16px}
+article h2:after{content:"";display:block;width:72px;height:4px;border-radius:99px;margin-top:12px;background:linear-gradient(90deg,var(--emerald700),var(--gold),var(--blue))}
+.article-link{color:var(--emerald800);font-weight:850;border-bottom:2px solid rgba(10,116,103,.25)}.article-link:hover{color:var(--ink);border-color:var(--gold)}.ar{font-family:Tahoma,"Segoe UI",Arial,sans-serif}
+.feature-list{list-style:none;display:grid;grid-template-columns:repeat(2,1fr);gap:13px;margin-top:22px}
+.feature-list li{padding:17px 18px;border:1px solid var(--line);border-radius:16px;background:linear-gradient(145deg,#fff,#f8fbfa);box-shadow:var(--sm);color:var(--ink);font-weight:700}
+.feature-list li:before{content:"✓";display:inline-grid;place-items:center;width:24px;height:24px;border-radius:8px;background:#e7f7f2;color:var(--emerald800);margin-right:9px}
+.table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:20px;margin-top:22px;box-shadow:var(--sm)}table{width:100%;min-width:760px;border-collapse:collapse}
+th{padding:17px 18px;text-align:left;color:#fff;background:linear-gradient(135deg,var(--emerald950),var(--emerald700),var(--gold))}
+td{padding:17px 18px;border-top:1px solid var(--line);vertical-align:top}tbody tr:nth-child(even){background:#f8fbfa}tbody tr:hover{background:#eef8f5}td:first-child{font-weight:800;color:var(--ink)}
+.faq-item{border:1px solid var(--line);border-radius:16px;margin-bottom:12px;overflow:hidden;background:#fff}.faq-item[open]{box-shadow:var(--sm);border-color:#c9e2db}
+.faq-item summary{cursor:pointer;list-style:none;position:relative;padding:19px 54px 19px 20px;font-weight:820;color:var(--ink)}
+.faq-item summary:after{content:"+";position:absolute;right:18px;top:50%;transform:translateY(-50%);width:29px;height:29px;display:grid;place-items:center;border-radius:9px;background:var(--emerald700);color:#fff}
+.faq-item[open] summary:after{content:"−";background:var(--gold);color:var(--emerald950)}.faq-answer{padding:0 20px 20px;color:#5c7077}
+.sidebar{position:sticky;top:98px;display:grid;gap:19px}.side{background:#fff;border:1px solid var(--line);border-radius:20px;padding:23px;box-shadow:var(--sm)}
+.side h3{color:var(--ink);margin-bottom:13px}.toc{display:grid;gap:8px}.toc a{padding:10px 12px;border-radius:10px;background:#f8fbfa;color:#586b72;font-size:.88rem}
+.toc a:hover{color:var(--emerald800);background:#edf8f5}.side.dark{color:#fff;border:0;background:radial-gradient(circle at bottom right,rgba(215,171,81,.2),transparent 40%),linear-gradient(150deg,var(--emerald950),var(--emerald800))}
+.side.dark h3{color:#fff}.side.dark p{color:#d5e9e3;font-size:.9rem}.badge{display:inline-flex;margin-top:14px;padding:9px 12px;border-radius:999px;border:1px solid rgba(255,255,255,.13);background:rgba(255,255,255,.08);color:#f3d68e;font-size:.79rem;font-weight:800}
+footer{background:var(--emerald950);color:#dcebe7}.footer-main{padding:58px 0 29px}.footer-grid{display:grid;grid-template-columns:1.25fr .7fr .7fr;gap:44px}
+.footer-title{color:#fff;font-size:1.25rem;font-weight:880;margin-bottom:11px}.footer-copy{color:#b9cec8;font-size:.92rem}.footer-head{color:#fff;font-weight:800;margin-bottom:12px}
+.footer-links{display:grid;gap:9px}.footer-links a{color:#c5d7d2;font-size:.9rem}.socials{display:flex;gap:10px;flex-wrap:wrap}.social{width:42px;height:42px;display:grid;place-items:center;border-radius:13px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.07);font-weight:800}
+.social:hover{background:var(--gold);color:var(--emerald950)}.bottom{display:flex;justify-content:space-between;gap:18px;margin-top:38px;padding-top:22px;border-top:1px solid rgba(255,255,255,.09);color:#92aaa4;font-size:.82rem}
+@media(max-width:1050px){.nav a:not(.cta){display:none}.hero-grid,.layout{grid-template-columns:1fr}.hero-card{max-width:650px}.sidebar{position:static;grid-template-columns:1fr 1fr}}
+@media(max-width:760px){.container{width:calc(100% - 24px)}.header-row{height:68px}.brand small{display:none}.hero{padding:70px 0 84px}h1{font-size:2.35rem}.shell{margin-top:-36px}article{padding:28px 20px;border-radius:22px}.feature-list,.sidebar,.footer-grid{grid-template-columns:1fr}.bottom{flex-direction:column}}
+</style>
+</head>
+<body id="top">
+<header class="site-header"><div class="container header-row">
+<a class="brand" href="#top"><span class="brand-mark">M</span><span>The Madrasati Platform <small>Saudi Student Guide</small></span></a>
+<nav class="nav">
+<a href="#what-is-the-madrasati-platform">About</a>
+<a href="#important-madrasati-features-for-daily-school-life">Features</a>
+<a href="#how-to-log-in-to-the-madrasati-platform">Login</a>
+<a href="#common-madrasati-problems">Help</a>
+<a href="#frequently-asked-questions">FAQ</a>
+<a class="cta" href="#article">Read Guide</a>
+</nav>
+</div></header>
+
+<section class="hero"><div class="container hero-grid">
+<div>
+<span class="eyebrow">Saudi Student Digital Learning Guide</span>
+<h1>The Madrasati Platform: Complete Guide for Saudi Students</h1>
+<p class="hero-lead">Understand daily Madrasati use, Microsoft login, student accounts, homework, digital resources, common problems, parent support, and account security.</p>
+<div class="tags"><span>Student & teacher access</span><span>Homework & learning resources</span><span>Noor & Tawakkalna guidance</span></div>
+</div>
+<div class="hero-card">
+<div class="dashboard-top"><span class="avatar">M</span><span class="lines"><i></i><i></i></span></div>
+<div class="tile-grid"><span></span><span></span><span></span></div>
+<h2>One centralized environment for important school activities.</h2>
+<p>Schedules, assignments, virtual learning, assessments, resources, and account services are brought together in one digital system.</p>
+</div>
+</div></section>
+
+<div class="shell" id="article"><div class="container layout">
+<article><p>The Madrasati Platform: Complete Guide for Saudi Students</p>
+<p>Digital education has become an important part of school life in Saudi Arabia. Students no longer depend only on printed textbooks and classroom notes to manage their studies. <strong>The Madrasati Platform</strong> provides an integrated online environment where learners can follow lessons, complete assignments, access educational material, review schedules, and participate in digital learning activities.</p>
+<p>Families looking for a focused Saudi education guide can also explore <a class="article-link ar" href="https://madrasatiksa.com" target="_blank" rel="noopener noreferrer" lang="ar" dir="rtl">المنصة منصة مدرستي</a> before continuing with the login, homework, resources, and support sections below.</p>
+<p>Operated within the Saudi Ministry of Education&#x27;s digital education ecosystem, Madrasati serves students, teachers, parents, and school administrators. The Ministry describes it as an e-learning platform designed to provide educational services and make school learning easier to manage electronically.</p>
+<p>For families using the system for the first time, account access, homework submission, virtual classes, and password recovery can sometimes be confusing. Understanding how the platform is organized can make the daily experience much easier.</p>
+<section id="what-is-the-madrasati-platform"><h2>What Is The Madrasati Platform?</h2>
+<p>The Madrasati Platform is an online educational system used to support teaching and learning in Saudi schools. Instead of using a different website for every school activity, students can access many academic services from a single digital environment.</p>
+<p>After signing in, students can view their school schedule, access subjects, review assigned work, participate in virtual learning activities, and use educational resources. The Ministry&#x27;s official guidance confirms that the platform includes schedules, courses, assignments, assessments, educational tracks, and other learning services.</p>
+<p>Madrasati is not limited to remote classes. It can also support normal classroom education by giving teachers and students a shared digital space for managing academic work.</p>
+</section><section id="who-uses-the-madrasati-platform"><h2>Who Uses the Madrasati Platform?</h2>
+<p>Different users receive different services based on their role.</p>
+<p>Students primarily use Madrasati for learning activities, school schedules, assignments, tests, and course content. Teachers can prepare learning activities, manage assignments, organize questions, and support students through digital resources.</p>
+<p>Parents can use related Ministry systems to follow their children&#x27;s educational information and obtain relevant account details. School administrators use services connected with school management and educational follow-up.</p>
+<p>The Ministry currently states that teaching staff and students sign in using Microsoft accounts. Parents and administrators can use unified access or Noor credentials, while kindergarten access also uses a Microsoft account.</p>
+</section><section id="important-madrasati-features-for-daily-school-life"><h2>Important Madrasati Features for Daily School Life</h2>
+<p>Students do not need to explore every feature at once. Most daily activity centers around a few important areas.</p>
+<p>Key services available through Madrasati include:</p>
+<ul class="feature-list">
+<li>School schedules and subject information</li>
+<li>Digital courses and educational resources</li>
+<li>Electronic homework and assignment submission</li>
+<li>Virtual classroom access</li>
+<li>Teacher and central assessments</li>
+<li>Educational tracks and learning activities</li>
+<li>Question-based exercises and academic practice</li>
+<li>Account and password management</li>
+</ul>
+<p>The Ministry confirms that electronic assignments can be displayed, created, and solved through the platform. It also maintains a Question Bank service that allows teachers to prepare questions for tests and assignments.</p>
+</section><section id="madrasati-services-explained"><h2>Madrasati Services Explained</h2>
+<div class="table-wrap"><table><thead><tr><th><strong>Madrasati Service</strong></th><th><strong>What It Helps With</strong></th><th><strong>Main Users</strong></th></tr></thead><tbody><tr><td>School Schedule</td><td>Checking subjects and lesson times</td><td>Students</td></tr><tr><td>Courses</td><td>Accessing subject learning material</td><td>Students &amp; Teachers</td></tr><tr><td>Assignments</td><td>Creating, completing and reviewing homework</td><td>Students &amp; Teachers</td></tr><tr><td>Virtual Learning</td><td>Participating in online lessons</td><td>Students &amp; Teachers</td></tr><tr><td>Assessments</td><td>Completing academic tests and activities</td><td>Students</td></tr><tr><td>Question Bank</td><td>Preparing questions for tests and homework</td><td>Teachers</td></tr><tr><td>Educational Tracks</td><td>Accessing structured learning paths</td><td>Students</td></tr><tr><td>Account Services</td><td>Login and password management</td><td>All relevant users</td></tr></tbody></table></div>
+<p>Having these tools together reduces the need to manage school information across several unrelated systems.</p>
+</section><section id="how-to-log-in-to-the-madrasati-platform"><h2>How to Log In to The Madrasati Platform</h2>
+<p>The correct login method depends on the type of user.</p>
+<p>Students and teaching staff should select the Microsoft account option provided for them. Parents and administrators have separate access through unified login or Noor. Users should always begin from official Ministry-supported access routes instead of entering educational credentials into websites found through random advertisements.</p>
+<p>After login, students can open their available services and review the school timetable, subjects, teachers, and other academic information.</p>
+<p>Account credentials should remain private. Students should avoid sharing passwords with classmates or entering them into third-party websites claiming to provide shortcuts to Madrasati.</p>
+</section><section id="getting-a-student-madrasati-account"><h2>Getting a Student Madrasati Account</h2>
+<p>Parents sometimes become concerned when a new student does not appear to have Madrasati login information.</p>
+<p>The Ministry states that student accounts can be created proactively at the beginning of the school year. Account information is made available through the parent&#x27;s Tawakkalna services, and the student must be registered in the Noor system for the service to work.</p>
+<p>Official Madrasati guidance also indicates that students or parents can access Madrasati account information through Tawakkalna&#x27;s education services.</p>
+<p>Because of this connection, parents experiencing account problems should confirm that the student&#x27;s registration information in Noor is correct.</p>
+</section><section id="managing-homework-through-madrasati"><h2>Managing Homework Through Madrasati</h2>
+<p>Assignments are one of the most frequently used parts of the platform.</p>
+<p>Teachers can create electronic homework, while students can open and solve assigned activities. According to the Ministry, the school assignment service is available electronically and allows users to display, create, and solve assignments. Students and parents can also review this <a class="article-link" href="https://madrasatiksa.com" target="_blank" rel="noopener noreferrer">Madrasati Platform student login and homework guide</a> for additional context.</p>
+<p>Students should check assignments regularly instead of waiting until the evening before a deadline. Starting early gives them time to understand the task and resolve technical problems.</p>
+<p>Before leaving the assignment page, it is useful to confirm that the answer or uploaded file has been successfully submitted. This prevents a completed assignment from remaining unsent because of an interrupted connection.</p>
+</section><section id="digital-learning-resources-and-textbooks"><h2>Digital Learning Resources and Textbooks</h2>
+<p>One of the advantages of digital education is the ability to combine traditional content with interactive learning resources.</p>
+<p>The Ministry has described electronic textbooks as including materials such as educational videos, interactive activities, infographics, discussions, assignments, and lesson summaries linked with learning objectives.</p>
+<p>Students can use such resources to review difficult topics after class rather than depending exclusively on handwritten notes.</p>
+<p>The most effective approach is to use digital materials as part of a regular study routine. Reviewing a lesson shortly after class can make homework and test preparation easier.</p>
+</section><section id="common-madrasati-problems"><h2>Common Madrasati Problems</h2>
+<p>Login difficulties can occur when students use the wrong account, enter an outdated password, or select an incorrect login option. Official Madrasati guidance provides a password recovery route for forgotten passwords.</p>
+<p>Browser issues may also affect access. Users can check their internet connection, update the browser, remove outdated cached data, and reopen the official platform.</p>
+<p>If an assignment does not appear, students should first confirm that they are assigned to the correct school, classroom, and subject. These are listed among the official conditions for using the electronic assignment service.</p>
+<p>When a technical issue cannot be solved normally, the Ministry provides a Madrasati technical-support ticket channel. Its service pages also reference the User Care Center at 19996 for assistance when an electronic service is unavailable.</p>
+</section><section id="how-parents-can-support-students"><h2>How Parents Can Support Students</h2>
+<p>Parents do not need to complete assignments for their children to make Madrasati useful. Their role can instead focus on organization and consistency.</p>
+<p>Helping younger students maintain a study schedule, remember deadlines, keep login details secure, and prepare devices before virtual activities can reduce unnecessary stress.</p>
+<p>Parents can also ensure that Noor information remains accurate because student account creation and other educational services may depend on that registration.</p>
+<p>As students become more independent, they should gradually take responsibility for checking assignments, schedules, and course material themselves.</p>
+</section><section id="why-the-madrasati-platform-is-important"><h2>Why The Madrasati Platform Is Important</h2>
+<p>Madrasati has become more than an emergency distance-learning solution. Ministry regulations continue to reference the platform as part of e-learning arrangements, including its use by private, international, and foreign schools where applicable.</p>
+<p>Its value lies in connecting learning, organization, assessment, and communication through a structured digital environment.</p>
+<p>For students, this creates easier access to schoolwork. For teachers, it provides tools to organize educational activities. For parents, connected Ministry services can improve awareness of their children&#x27;s educational accounts and progress.</p>
+</section><section id="conclusion"><h2>Conclusion</h2>
+<p><strong>The Madrasati Platform</strong> provides Saudi students with a centralized environment for managing important parts of their education. From schedules and assignments to educational tracks, assessments, digital resources, and account services, it supports both classroom and online learning.</p>
+<p>A good Madrasati experience depends on using the correct login method, checking assignments regularly, protecting account information, keeping Noor registration accurate, and using official support when problems occur.</p>
+<p>Instead of treating Madrasati only as a website students visit when homework is due, using it as part of a daily study routine can make school responsibilities easier to organize.</p>
+</section><section id="frequently-asked-questions"><h2>Frequently Asked Questions</h2>
+<details class="faq-item"><summary>What is The Madrasati Platform?</summary><div class="faq-answer">Madrasati is an e-learning platform within Saudi Arabia&#x27;s Ministry of Education ecosystem that provides digital services for students, teachers, parents, and educational staff.</div></details>
+<details class="faq-item"><summary>How do students log in to Madrasati?</summary><div class="faq-answer">Students and teaching staff currently use their Microsoft educational accounts to access the platform.</div></details>
+<details class="faq-item"><summary>Can parents log in to Madrasati?</summary><div class="faq-answer">Official Ministry guidance provides parents and administrators with access options through unified access or Noor credentials.</div></details>
+<details class="faq-item"><summary>How can I get my Madrasati username?</summary><div class="faq-answer">Student account information can be obtained through relevant Tawakkalna education services. Students must be registered in Noor for proactive account creation.</div></details>
+<details class="faq-item"><summary>Can students complete homework online?</summary><div class="faq-answer">Yes. Madrasati includes an electronic assignment service for displaying and completing school assignments.</div></details>
+<details class="faq-item"><summary>Does Madrasati provide educational resources?</summary><div class="faq-answer">Yes. The Ministry&#x27;s digital education ecosystem includes course content and interactive resources that support student learning.</div></details>
+<details class="faq-item"><summary>What should I do if I forget my password?</summary><div class="faq-answer">Use the official password recovery option provided through Madrasati rather than attempting to create an unofficial replacement account.</div></details>
+<details class="faq-item"><summary>What if Madrasati is not working?</summary><div class="faq-answer">Check your login details, connection, and browser first. If the issue continues, use the Ministry&#x27;s official Madrasati technical-support service or User Care channels.</div></details>
+<details class="faq-item"><summary>Is Noor connected with Madrasati?</summary><div class="faq-answer">Yes. Noor registration is relevant to proactive Madrasati student account creation, and parents or administrators may also have Noor-based access options.</div></details></article>
+<aside class="sidebar">
+<div class="side"><h3>Inside This Guide</h3><div class="toc">
+<a href="#what-is-the-madrasati-platform">What Madrasati Is</a>
+<a href="#important-madrasati-features-for-daily-school-life">Daily Features</a>
+<a href="#how-to-log-in-to-the-madrasati-platform">Login Guide</a>
+<a href="#managing-homework-through-madrasati">Homework</a>
+<a href="#common-madrasati-problems">Common Problems</a>
+<a href="#frequently-asked-questions">FAQs</a>
+</div></div>
+<div class="side dark"><h3>Use Official Access Routes</h3><p>Students should protect Microsoft educational credentials and avoid entering passwords into third-party websites claiming to provide shortcuts.</p><span class="badge">Secure Access & Student Support</span></div>
+</aside>
+</div></div>
+
+<footer><div class="container footer-main">
+<div class="footer-grid">
+<div><div class="footer-title">The Madrasati Platform Guide</div><p class="footer-copy">A professional educational resource covering login, student accounts, assignments, digital learning resources, troubleshooting, parent support, and responsible platform use.</p></div>
+<div><div class="footer-head">Quick Navigation</div><div class="footer-links"><a href="#what-is-the-madrasati-platform">About</a><a href="#important-madrasati-features-for-daily-school-life">Features</a><a href="#how-to-log-in-to-the-madrasati-platform">Login</a><a href="#common-madrasati-problems">Help</a><a href="#frequently-asked-questions">FAQ</a></div></div>
+<div><div class="footer-head">Social Links</div><div class="socials"><a class="social" href="https://www.facebook.com/" target="_blank" rel="noopener">f</a><a class="social" href="https://x.com/" target="_blank" rel="noopener">X</a><a class="social" href="https://www.instagram.com/" target="_blank" rel="noopener">◎</a><a class="social" href="https://www.linkedin.com/" target="_blank" rel="noopener">in</a></div></div>
+</div>
+<div class="bottom"><span>&copy; 2026 The Madrasati Platform Guide. All rights reserved.</span><a href="#top">Back to Top ↑</a></div>
+</div></footer>
+</body>
+</html>
+
